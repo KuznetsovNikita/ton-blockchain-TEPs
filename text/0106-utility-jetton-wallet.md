@@ -28,9 +28,6 @@ Jetton Wallet should handle message
 
 `proxy#1ee6e170 query_id:uint64 response_destination:MsgAddress forward_payload:Either Cell ^Cell = InternalMsgBody;`
 
-with TON amount higher than `2 * max_tx_gas_price + fwd_fee` ~ 0.026 TON for current basechain settings (if amount is less than that it is not possible to send response) attached
-
-
 **Should be rejected if:**
 
 1. message is not from the owner.
