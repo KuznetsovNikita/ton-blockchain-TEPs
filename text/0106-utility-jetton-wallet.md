@@ -26,7 +26,7 @@ Example of utility jetton wallet code can be found [here](https://github.com/Ope
 
 Jetton Wallet should handle message
 
-`proxy#1ee6e170 query_id:uint64 response_destination:MsgAddress forward_payload:Either Cell ^Cell = InternalMsgBody;`
+`proxy#1ee6e170 query_id:uint64 response_destination:MsgAddress forward_payload:(Either Cell ^Cell) = InternalMsgBody;`
 
 **Should be rejected if:**
 
